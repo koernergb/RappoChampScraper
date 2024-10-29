@@ -1,0 +1,7 @@
+crawl4ai
+pydantic 
+playwright
+python-dotenv
+tenacity
+openai
+cohere

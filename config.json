@@ -1,0 +1,215 @@
+{
+    "cohere_api_key": "your-api-key",
+    "data_directory": "data",
+    "rate_limits": {
+        "cohere": 100,
+        "web": 60
+    },
+    "vendors": [
+        {
+            "name": "Datadog",
+            "base_url": "https://www.datadoghq.com/",
+            "case_studies_url": "https://www.datadoghq.com/case-studies/"
+        },
+        {
+            "name": "Confluent",
+            "base_url": "https://www.confluent.io/",
+            "case_studies_url": "https://www.confluent.io/customers/"
+        },
+        {
+            "name": "HashiCorp",
+            "base_url": "https://www.hashicorp.com/",
+            "case_studies_url": "https://www.hashicorp.com/case-studies"
+        },
+        {
+            "name": "Elastic",
+            "base_url": "https://www.elastic.co/",
+            "case_studies_url": "https://www.elastic.co/customers"
+        },
+        {
+            "name": "MongoDB",
+            "base_url": "https://www.mongodb.com/",
+            "case_studies_url": "https://www.mongodb.com/solutions/customer-case-studies"
+        },
+        {
+            "name": "Snowflake",
+            "base_url": "https://www.snowflake.com/",
+            "case_studies_url": "https://www.snowflake.com/en/customers/all-customers/"
+        },
+        {
+            "name": "New Relic",
+            "base_url": "https://newrelic.com/",
+            "case_studies_url": "https://newrelic.com/customers"
+        },
+        {
+            "name": "Splunk",
+            "base_url": "https://www.splunk.com/",
+            "case_studies_url": "https://www.splunk.com/en_us/customers.html"
+        },
+        {
+            "name": "Docker",
+            "base_url": "https://www.docker.com/",
+            "case_studies_url": "https://www.docker.com/resources/?_sft_resource_category=case-study"
+        },
+        {
+            "name": "GitHub",
+            "base_url": "https://github.com/",
+            "case_studies_url": "https://github.com/customer-stories"
+        },
+        {
+            "name": "GitLab",
+            "base_url": "https://about.gitlab.com/",
+            "case_studies_url": "https://about.gitlab.com/customers/"
+        },
+        {
+            "name": "Atlassian",
+            "base_url": "https://www.atlassian.com/",
+            "case_studies_url": "https://www.atlassian.com/customers"
+        },
+        {
+            "name": "Puppet",
+            "base_url": "https://www.puppet.com/",
+            "case_studies_url": "https://www.puppet.com/customers/case-studies"
+        },
+        {
+            "name": "Chef",
+            "base_url": "https://www.chef.io/",
+            "case_studies_url": "https://www.chef.io/customers?page=1"
+        },
+        {
+            "name": "Red Hat",
+            "base_url": "https://www.redhat.com/",
+            "case_studies_url": "https://www.redhat.com/en/success-stories?f[0]=taxonomy_product_tid:25911&sc_cid=7015Y000003t7aWQAQ"
+        },
+        {
+            "name": "CircleCI",
+            "base_url": "https://circleci.com/",
+            "case_studies_url": "https://circleci.com/customers/"
+        },
+        {
+            "name": "Fastly",
+            "base_url": "https://www.fastly.com/",
+            "case_studies_url": "https://www.fastly.com/customers/"
+        },
+        {
+            "name": "DigitalOcean",
+            "base_url": "https://www.digitalocean.com/",
+            "case_studies_url": "https://www.digitalocean.com/customers"
+        },
+        {
+            "name": "PagerDuty",
+            "base_url": "https://www.pagerduty.com/",
+            "case_studies_url": "https://www.pagerduty.com/customers/"
+        },
+        {
+            "name": "Sentry",
+            "base_url": "https://sentry.io/",
+            "case_studies_url": "https://sentry.io/customers/"
+        },
+        {
+            "name": "Grafana",
+            "base_url": "https://grafana.com/",
+            "case_studies_url": "https://grafana.com/success/"
+        },
+        {
+            "name": "DataStax",
+            "base_url": "https://www.datastax.com/",
+            "case_studies_url": "https://docs.datastax.com/en/cql/hcd-1.0/get-started/case-studies.html"
+        },
+        {
+            "name": "Couchbase",
+            "base_url": "https://www.couchbase.com/",
+            "case_studies_url": "https://www.couchbase.com/customers/"
+        },
+        {
+            "name": "CloudBees",
+            "base_url": "https://www.cloudbees.com/",
+            "case_studies_url": "https://www.cloudbees.com/customers"
+        },
+        {
+            "name": "Netlify",
+            "base_url": "https://www.netlify.com/",
+            "case_studies_url": "https://www.netlify.com/resources/case-studies/"
+        },
+        {
+            "name": "Vercel",
+            "base_url": "https://vercel.com/",
+            "case_studies_url": "https://vercel.com/customers"
+        },
+        {
+            "name": "Heroku",
+            "base_url": "https://www.heroku.com/",
+            "case_studies_url": "https://www.heroku.com/customers/case-studies"
+        },
+        {
+            "name": "Cloudera",
+            "base_url": "https://www.cloudera.com/",
+            "case_studies_url": "https://www.cloudera.com/customers.html"
+        },
+        {
+            "name": "Redis",
+            "base_url": "https://redis.io/",
+            "case_studies_url": "https://redis.io/customers/"
+        },
+        {
+            "name": "JFrog",
+            "base_url": "https://jfrog.com/",
+            "case_studies_url": "https://jfrog.com/resource-center/usecases?solution=all"
+        },
+        {
+            "name": "Tenable",
+            "base_url": "https://www.tenable.com/",
+            "case_studies_url": "https://www.tenable.com/customers"
+        },
+        {
+            "name": "ServiceNow",
+            "base_url": "https://www.servicenow.com/",
+            "case_studies_url": "https://www.servicenow.com/customers.html"
+        },
+        {
+            "name": "LaunchDarkly",
+            "base_url": "https://launchdarkly.com/",
+            "case_studies_url": "https://launchdarkly.com/customers/"
+        },
+        {
+            "name": "Okta",
+            "base_url": "https://www.okta.com/",
+            "case_studies_url": "https://www.okta.com/customers/"
+        },
+        {
+            "name": "Twilio",
+            "base_url": "https://www.twilio.com/",
+            "case_studies_url": "https://customers.twilio.com/en-us"
+        },
+        {
+            "name": "Auth0",
+            "base_url": "https://auth0.com/",
+            "case_studies_url": "https://auth0.com/customers"
+        },
+        {
+            "name": "Slack",
+            "base_url": "https://slack.com/",
+            "case_studies_url": "https://slack.com/customer-stories"
+        },
+        {
+            "name": "Databricks",
+            "base_url": "https://www.databricks.com/",
+            "case_studies_url": "https://www.databricks.com/customers"
+        },
+        {
+            "name": "JetBrains",
+            "base_url": "https://www.jetbrains.com/",
+            "case_studies_url": "https://www.jetbrains.com/company/customers/experience/"
+        },
+        {
+            "name": "Sonatype",
+            "base_url": "https://www.sonatype.com/",
+            "case_studies_url": "https://www.sonatype.com/customer-stories"
+        },
+        {
+            "name": "Chronosphere",
+            "base_url": "https://chronosphere.io/",
+            "case_studies_url": "https://chronosphere.io/resources-center/"
+        }
+    ]
+}
